@@ -9,10 +9,9 @@ const Header = () =>
   <div>
     <div className='mw8 pv3 db center tc'>
       <h1 className='f4'>
-        <Link to="/" className='white'>WORKING NOT WORKING</Link>
-        <div className='bg-accent center' style={{width: '82', height: '2'}}></div>
+        <Link to="/" className=''>WORKING NOT WORKING</Link>
       </h1>
-    <p className='white'>A collection of free spaces to work in around London city centre</p>
+    <p className=''>A collection of free spaces to work in around London city centre</p>
     </div>
   </div>;
 
