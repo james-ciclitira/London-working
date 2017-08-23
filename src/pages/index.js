@@ -7,12 +7,14 @@ export default function Index({ data }) {
       {posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
         return (
           <div className="w-third dib v-top pa2">
-          <div className='relative'>
+          <div className='relative shadow'>
           <img  src='image/e2-common.jpg'/>
-          <h3 className='absolute bg-black white top-0 pv1 ph1'>{post.frontmatter.title}</h3>
+          <div className='absolute top-0 bottom-0 right-0 left-0 bg-black-60 pa4 tc'>
+          <h2 className='white top-0 ma0'>{post.frontmatter.title}</h2>
+          <p className='white f7 mt2'>Last updated {post.frontmatter.date}</p>
           </div>
-          <div className="pv3 ph3 shadow bg-white">
-            <p className='f7'>Last updated {post.frontmatter.date}</p>
+          </div>
+          <div className="pv3 ph3 bg-white">
             <p>Type: {post.frontmatter.type}</p>
             <p>Location: {post.frontmatter.address}</p>
             <p>Wifi-speed: {post.frontmatter.wifi}</p>
