@@ -13,7 +13,10 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "type", name: "Location type", widget: "string"}
+      - {label: "wifi", name: "Wifi Speed", widget: "string"}
+      - {label: "password", name: "Wifi Password", widget: "string"}
+      - {label: "hours", name: "Weekday opening hours", widget: "string"}
+      - {label: "directions", name: "Google map directions", widget: "string"}
