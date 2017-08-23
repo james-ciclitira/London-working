@@ -15,8 +15,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "date", name: "date", widget: "datetime"}
       - {label: "title", name: "title", widget: "string"}
-      - {label: "type", name: "type", widget: "string"}
-      - {label: "wifi", name: "wifi", widget: "string"}
-      - {label: "password", name: "password", widget: "string"}
-      - {label: "hours", name: "hours", widget: "string"}
-      - {label: "directions", name: "directions", widget: "string"}
+      - {label: "Location type", name: "type", widget: "string"}
+      - {label: "wifi speed", name: "wifi", widget: "string"}
+      - {label: "wifi password", name: "password", widget: "string"}
+      - {label: "Weekday open hours", name: "hours", widget: "string"}
+      - {label: "Google maps directions", name: "directions", widget: "string"}
