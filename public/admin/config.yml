@@ -20,3 +20,4 @@ collections:
       - {label: "wifi password", name: "password", widget: "string"}
       - {label: "Weekday open hours", name: "hours", widget: "string"}
       - {label: "Google maps directions", name: "directions", widget: "string"}
+      - {label: "image", name: "image", widget: "image"}

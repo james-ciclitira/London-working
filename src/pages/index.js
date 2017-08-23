@@ -7,7 +7,7 @@ export default function Index({ data }) {
       {posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
         return (
           <div className="w-third dib v-top pa2">
-          <div className='relative shadow' style={{backgroundImage: 'url("/image/e2-common.jpg")', backgroundSize: 'cover', height:'220'}}>
+          <div className='relative shadow' style={{backgroundImage: `url(${post.frontmatter.image})`, height: '200', backgroundSize: 'cover'}}>
           <div className='absolute top-0 bottom-0 right-0 left-0 bg-black-60 pa4 tc'>
           <h2 className='white top-0 ma0'>{post.frontmatter.title}</h2>
           <p className='white f7 mt2'>Last updated {post.frontmatter.date}</p>
@@ -44,6 +44,7 @@ export const pageQuery = graphql`
             password
             hours
             directions
+            image
           }
         }
       }
