@@ -23,6 +23,9 @@ const TemplateWrapper = ({ children, location }) => {
             <Helmet title="Home | Blog" />
              <Helmet
       title="Working not working"
+      link={[
+        { rel:"stylesheet", href:'https://fonts.googleapis.com/icon?family=Material+Icons'}
+        ]}
       meta={[
         { name: 'description', content: 'Freelance Product Designer based in London. Creatively resolving problems & building amazing user experiences, specialising in Mobile & Web design' },
         { name: 'keywords', content: 'Freelance Product Design, James Ciclitira, UI/UX, User Interface Design, User Experiences Design, London, Europe, HTML, CSS, React, iOS, Andriod, Mobile, Web, Sketch, Prototyping, Web development, Responsive Design, User Testing, Mobile Apps, Interaction Design, Front-end Development, Digital Product Design, Jimmy, Jimi, Tech' },
