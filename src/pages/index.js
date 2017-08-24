@@ -3,7 +3,7 @@ import React from 'react';
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <div>
+    <div className='debug'>
       {posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
         return (
           <div className="w-third dib v-top pa2">

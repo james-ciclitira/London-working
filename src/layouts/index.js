@@ -9,7 +9,7 @@ const Header = () =>
   <div>
     <div className='mw8 pv3 db center tc'>
       <h1 className='f4'>
-        <Link to="/" className=''>WORKING NOT WORKING</Link>
+        <Link to="/" className=''>WORKING OUT</Link>
       </h1>
     <p className=''>A collection of free spaces to work in around London city centre</p>
     </div>
@@ -22,19 +22,33 @@ const TemplateWrapper = ({ children, location }) => {
         ? <div>
             <Helmet title="Home | Blog" />
              <Helmet
-      title="Working not working"
+      title="Working out - free working spaces around London"
       link={[
-        { rel:"stylesheet", href:'https://fonts.googleapis.com/icon?family=Material+Icons'}
+        { rel: 'apple-touch-icon', sizes: '180x180', href: 'favicon/apple-touch-icon.png'},
+        { rel: 'icon', sizes: '32x32', href: 'favicon/favicon-32x32.png'},
+        { rel: 'icon', sizes: '16x16', href: 'favicon/favicon-16x16.png'},
         ]}
+
       meta={[
-        { name: 'description', content: 'A collection of the best free spaces to work in around London city centre' },
+        { name: 'description', content: 'Working out- the best free spaces to work in around London. Designed with freelancers in mind' },
+        { name: 'keywords', content: 'Freelance, Design, London, cafe, Library, remote working, London, Europe, coffee, tea, WIFI-speed, free working' },
         { name: 'og:type', content: 'profile' },
+        { name: 'og:title', content: 'Working out - free working spaces around London' },
+        { name: 'og:description', content: 'Working out- the best free spaces to work in around London. Designed with freelancers in mind' },
+        { name: 'og:image', content: 'https://working-out.design/images/preview.png' },
+        { name: 'profile:first_name', content: 'James' },
+        { name: 'profile:last_name', content: 'Ciclitira' },
+        { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:creator', content: '@jjiiimmmy' },
         { name: 'twitter:site', content: '@jjiiimmmy' },
-        { name: 'twitter:title', content: 'James Ciclitira - Freelancer Product Designer' },
-        { name: 'twitter:description', content: 'Freelance Product Designer based in London. Creatively resolving problems & building amazing user experiences, specialising in Mobile & Web design' },
+        { name: 'twitter:title', content: 'Working out - free working spaces around London' },
+        { name: 'twitter:description', content: 'Freelance, Design, London, cafe, Library, remote working, London, Europe, coffee, tea, WIFI-speed, free working' },
+        { name: 'twitter:image', content: 'https://working-out.design/images/preview.png' },
       ]}
     />
+
+
+
             <Header />
             <div className='mw8 db center pt4'>
               {children()}
