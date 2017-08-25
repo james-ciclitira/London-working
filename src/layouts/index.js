@@ -11,7 +11,7 @@ const Header = () =>
         <Link className="link dim black b f1 f-headline-ns tc db mb3 mb4-ns" to='/' title="Home">Working-out</Link>
         <p className='tc'>Free co-working spaces in London</p>
         <div className="tc pb3">
-          <Link className="link dim f6 f5-ns dib" to="/add" title="Submit">Submit a location</Link>
+          <Link className="link dim f6 f5-ns dib" to="/contribute" title="Submit">Contribute</Link>
         </div>
       </nav>
   </div>;
