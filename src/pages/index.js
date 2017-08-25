@@ -6,7 +6,7 @@ export default function Index({ data }) {
     <div>
       {posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
         return (
-          <div className="w-third dib v-top pa2">
+          <div className="w-third-ns w-100 dib v-top pa2">
           <div className='relative shadow' style={{backgroundImage: `url(${post.frontmatter.image})`, height: '200', backgroundSize: 'cover'}}>
           <div className='absolute top-0 bottom-0 right-0 left-0 bg-black-60 pa4 tc'>
           <h2 className='white top-0 ma0'>{post.frontmatter.title}</h2>
@@ -15,7 +15,8 @@ export default function Index({ data }) {
           </div>
           </div>
           <div className="pv3 ph3 tc">
-            <p>{post.frontmatter.wifi}</p>
+            <p>{post.frontmatter.upload}</p>
+            <p>{post.frontmatter.download}</p>
             <p>{post.frontmatter.password}</p>
             <p>{post.frontmatter.hours}</p>
             <a className='fw6 grow' href={`${post.frontmatter.directions}`}>Direction</a>
