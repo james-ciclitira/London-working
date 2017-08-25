@@ -1,18 +1,18 @@
 backend:
   name: github
-  repo: james-ciclitira/London-working # Path to your Github repository
-  branch: master # Branch to update
+  repo: james-ciclitira/London-working
+  branch: master
 
 media_folder: "images"
 public_folder: "/public/static"
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Locations" # Used in the UI
-    folder: "src/pages/blog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "blog"
+    label: "Locations"
+    folder: "src/pages/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
       - {label: "date", name: "date", widget: "datetime"}
       - {label: "title", name: "title", widget: "string"}
       - {label: "Location type", name: "type", widget: "string"}
