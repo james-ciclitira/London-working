@@ -6,20 +6,28 @@ export default function Index({ data }) {
     <div>
       {posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
         return (
-          <div className="w-third-ns w-100 dib v-top pa2">
-          <div className='relative shadow' style={{backgroundImage: `url(${post.frontmatter.image})`, height: '200', backgroundSize: 'cover'}}>
+          <div className="w-third-ns w-100 dib v-top pv3 ph2">
+          <a className='relative shadow db' href={`${post.frontmatter.directions}`} style={{backgroundImage: `url(${post.frontmatter.image})`, height: '200', backgroundSize: 'cover'}}>
           <div className='absolute top-0 bottom-0 right-0 left-0 bg-black-60 pa4 tc'>
           <h2 className='white top-0 ma0'>{post.frontmatter.title}</h2>
           <p className='white f7 mt2'>Last updated {post.frontmatter.date}</p>
           <p className='white f7 mt2'>{post.frontmatter.address}</p>
+          <p className='white f7 mt2'>{post.frontmatter.hours}</p>
           </div>
-          </div>
-          <div className="pv3 ph3 tc">
-            <p>WIFI-Upload: {post.frontmatter.upload}</p>
-            <p>WIFI-Download: {post.frontmatter.download}</p>
-            <p>{post.frontmatter.password}</p>
-            <p>{post.frontmatter.hours}</p>
-            <a className='fw6 grow' href={`${post.frontmatter.directions}`}>Direction</a>
+          </a>
+          <div className="sans-serif ph3 tc">
+            <p>Wifi speed</p>
+            <article className="cf">
+              <div className="fl w-50 tc">
+                <p className='ma0'>{post.frontmatter.upload}</p>
+                <p className='f7 ma0'>Mbps upload</p>
+              </div>
+              <div className="fl w-50 tc">
+                <p className='ma0'>{post.frontmatter.download}</p>
+                <p className='f7 ma0'>Mbps download</p>
+             </div>
+            </article>
+            <a className='fw6 grow dn'>Direction</a>
           </div>
           </div>
         );

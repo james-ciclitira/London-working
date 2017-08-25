@@ -1,7 +1,7 @@
 ---
 date: '2017-08-03'
 title: 'Jonestown Coffee'
-image: 'https://static1.squarespace.com/static/57a07a5e2e69cfb59e4fcb84/t/582dbfb4725e256210e57ac0/1479393275275/Coffee+Shop+Interiors+-+Featured+Image.jpg'
+image: '/images/Jonestown.jpg'
 type: 'Coffee shop'
 address: '215 Bethnal Green Rd'
 download: '5.7'
