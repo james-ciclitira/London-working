@@ -1,10 +1,11 @@
 ---
 date: '2017-08-23'
 title: 'The common E2 cafe'
-image: '/image/e2-common.jpg'
+image: '/images/e2-common.jpg'
 type: 'Coffee Shop'
 address: '53 Old Bethnal Green Rd'
-wifi: '6.11 MBPS'
+download: '6.7'
+upload: '8.4'
 password: 'No password'
 price: '££'
 hours: '8:00-17:30'

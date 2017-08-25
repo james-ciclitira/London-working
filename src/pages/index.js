@@ -15,8 +15,8 @@ export default function Index({ data }) {
           </div>
           </div>
           <div className="pv3 ph3 tc">
-            <p>{post.frontmatter.upload}</p>
-            <p>{post.frontmatter.download}</p>
+            <p>WIFI-Upload: {post.frontmatter.upload}</p>
+            <p>WIFI-Download: {post.frontmatter.download}</p>
             <p>{post.frontmatter.password}</p>
             <p>{post.frontmatter.hours}</p>
             <a className='fw6 grow' href={`${post.frontmatter.directions}`}>Direction</a>
@@ -40,7 +40,8 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             type
             address
-            wifi
+            upload
+            download
             password
             hours
             directions

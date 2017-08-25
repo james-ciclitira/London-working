@@ -35,7 +35,7 @@ const TemplateWrapper = ({ children, location }) => {
         { name: 'og:type', content: 'profile' },
         { name: 'og:title', content: 'Working out - free working spaces around London' },
         { name: 'og:description', content: 'Working out- the best free spaces to work in around London. Designed with freelancers in mind' },
-        { name: 'og:image', content: 'https://working-out.design/image/preview.png' },
+        { name: 'og:image', content: 'https://working-out.design/images/preview.jpg' },
         { name: 'profile:first_name', content: 'James' },
         { name: 'profile:last_name', content: 'Ciclitira' },
         { name: 'twitter:card', content: 'summary_large_image' },
@@ -43,7 +43,7 @@ const TemplateWrapper = ({ children, location }) => {
         { name: 'twitter:site', content: '@jjiiimmmy' },
         { name: 'twitter:title', content: 'Working out - free working spaces around London' },
         { name: 'twitter:description', content: 'Freelance, Design, London, cafe, Library, remote working, London, Europe, coffee, tea, WIFI-speed, free working' },
-        { name: 'twitter:image', content: 'https://working-out.design/image/preview.png' },
+        { name: 'twitter:image', content: 'https://working-out.design/images/preview.jpg' },
       ]}
     />
             <Header />

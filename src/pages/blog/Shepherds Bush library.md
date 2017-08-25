@@ -1,10 +1,11 @@
 ---
 date: '2017-08-03'
 title: 'Shepherds Bush library'
-image: 'https://c1.staticflickr.com/4/3525/3949992203_ecd822c171_b.jpg'
+image: '/images/shepherds-bush-libary.jpg'
 type: 'library'
 address: '6 Wood Ln, Shepherds Bush'
-wifi: '6 MBPS'
+download: '5.5'
+upload: '6.4'
 password: 'No password'
 price: 'Free'
 hours: '10:00-20:00'

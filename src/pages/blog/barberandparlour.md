@@ -1,10 +1,11 @@
 ---
 date: '2017-08-03'
 title: 'Barber and parlour'
-image: 'https://www.barberandparlour.com/media/resized/wysiwyg/Neville/B_P_outside-2000.jpg'
+image: '/images/barberandparlour.jpg'
 type: 'Relaxed bar'
 address: '64-66 Redchurch St'
-wifi: '7 MBPS'
+download: '8.7'
+upload: '8.3'
 password: 'Some password'
 price: '£££'
 hours: '9:00-23:00'

@@ -1,7 +1,7 @@
 ---
 date: '2017-08-03'
 title: 'CREAM'
-image: 'https://static1.squarespace.com/static/5524095fe4b00ed50628eaca/552413e0e4b041667bc23003/55246595e4b0bc349d6cb928/1429349045808/Cream10_result.JPG?format=1500w'
+image: '/images/cream.jpg'
 type: 'Coffee shop'
 address: '215 Bethnal Green Rd'
 download: '15.7'
