@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from '../components/Footer';
+
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
@@ -32,6 +34,8 @@ export default function Index({ data }) {
           </div>
         );
       })}
+            <Footer/>
+
     </div>
   );
 }
