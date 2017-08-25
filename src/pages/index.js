@@ -8,7 +8,7 @@ export default function Index({ data }) {
     <div>
       {posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
         return (
-          <div className="w-third-ns w-100 dib v-top pv3 ph2">
+          <div className="w-third-ns w-100 dib v-top pv4 ph2">
           <a className='relative shadow db' href={`${post.frontmatter.directions}`} style={{backgroundImage: `url(${post.frontmatter.image})`, height: '200', backgroundSize: 'cover'}}>
           <div className='absolute top-0 bottom-0 right-0 left-0 bg-black-50 pa4 tc'>
           <h2 className='white top-0 ma0'>{post.frontmatter.title}</h2>
