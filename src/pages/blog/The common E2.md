@@ -1,6 +1,6 @@
 ---
 date: '2017-08-23'
-title: 'The common E2'
+title: 'The common E2 cafe'
 image: '/image/e2-common.jpg'
 type: 'Coffee Shop'
 address: '53 Old Bethnal Green Rd'
