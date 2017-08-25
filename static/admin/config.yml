@@ -16,7 +16,8 @@ collections:
       - {label: "date", name: "date", widget: "datetime"}
       - {label: "title", name: "title", widget: "string"}
       - {label: "Location type", name: "type", widget: "string"}
-      - {label: "wifi speed", name: "wifi", widget: "string"}
+      - {label: "wifi upload speed", name: "upload", widget: "string"}
+      - {label: "wifi download speed", name: "download", widget: "string"}
       - {label: "wifi password", name: "password", widget: "string"}
       - {label: "Weekday open hours", name: "hours", widget: "string"}
       - {label: "Google maps directions", name: "directions", widget: "string"}
