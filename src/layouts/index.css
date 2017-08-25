@@ -1,16 +1,16 @@
 @fontface {
-  src: url('https://fonts.googleapis.com/css?family=Roboto')
+  src: url('/fonts/Brother-1816-ExtraBold.otf')
 }
 
+
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #fff;
-  color: rgba(0,0,0,.80);
+  font-family: 'Brother-1816-ExtraBold', sans-serif;
+  background-color: #f5f5f5;
+  color: rgba(0,0,0,.90);
 }
 
 a {
   text-decoration: none;
-  color: rgba(0,0,0,.70);
 }
 
 .accent {

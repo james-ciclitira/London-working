@@ -8,8 +8,11 @@ import './index.css';
 const Header = () =>
   <div>
     <div className='mw8 pv3 db center tc'>
-      <h1 className='f4'>
-        <Link to="/" className=''>WORKING OUT</Link>
+      <h1 className='f4 black-90'>
+        <Link to="/">WORKING-OUT.DESIGN</Link>
+      </h1>
+       <h1 className='f4 black-90'>
+        <Link className='tr f5 black-90' to="/admin">Add new</Link>
       </h1>
     <p className=''>A collection of free spaces to work in around London city centre</p>
     </div>
@@ -20,7 +23,6 @@ const TemplateWrapper = ({ children, location }) => {
     <div>
       {!location.pathname.includes('/admin')
         ? <div>
-            <Helmet title="Home | Blog" />
              <Helmet
       title="Working out - free working spaces around London"
       link={[
@@ -46,9 +48,6 @@ const TemplateWrapper = ({ children, location }) => {
         { name: 'twitter:image', content: 'https://working-out.design/images/preview.png' },
       ]}
     />
-
-
-
             <Header />
             <div className='mw8 db center pt4'>
               {children()}
