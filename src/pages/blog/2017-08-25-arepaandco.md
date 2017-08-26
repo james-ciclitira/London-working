@@ -1,5 +1,5 @@
 ---
-date: 2017-08-25T17:37:00.248Z
+date: '2017-08-25'
 title: Arepa&CO
 type: Restaurant
 wifi: N/A
