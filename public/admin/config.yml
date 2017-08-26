@@ -4,7 +4,7 @@ backend:
   branch: master
 
 media_folder: "images"
-public_folder: "/public/static"
+public_folder: "/public/images"
 
 collections:
   - name: "blog"
@@ -18,7 +18,6 @@ collections:
       - {label: "Location type", name: "type", widget: "string"}
       - {label: "wifi upload speed", name: "upload", widget: "string"}
       - {label: "wifi download speed", name: "download", widget: "string"}
-      - {label: "wifi password", name: "password", widget: "string"}
       - {label: "Weekday open hours", name: "hours", widget: "string"}
       - {label: "Google maps directions", name: "directions", widget: "string"}
       - {label: "image", name: "image", widget: "image"}

@@ -7,12 +7,10 @@ import './index.css';
 
 const Header = () =>
   <div>
-  <nav className="pa3 pa4-ns">
-        <Link className="link dim black b f1 f-headline-ns tc db mb3 mb4-ns" to='/' title="Home">Working-out</Link>
-        <p className='tc'>Free co-working spaces in London</p>
-        <div className="tc pb3">
-          <Link className="link dim f6 f5-ns dib" to="/contribute" title="Submit">Contribute</Link>
-        </div>
+  <nav className="pa3 pa4-ns tc">
+        <Link className="link dim black b f1 f-headline-ns tc db mb2 mb4-ns" to='/' title="Home">Working-out</Link>
+        <p>Free co-working spaces around London</p>
+        <Link className="link dim f6 f5-ns db" to="/contribute" title="Submit">Contribute</Link>
       </nav>
   </div>;
 

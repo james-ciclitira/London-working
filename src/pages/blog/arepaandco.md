@@ -1,6 +1,6 @@
 ---
 date: '2017-08-25'
-title: Arepa&CO
+title: Arepa & co
 type: Restaurant
 address: 58A De Beauvoir Cres
 download: '1.2'
